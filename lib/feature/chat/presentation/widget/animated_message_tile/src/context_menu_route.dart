@@ -196,6 +196,5 @@ class _ContextMenuRoute extends PopupRoute<void> {
 
   void _calculateBottomSpacing(double incomingBottomSpacing) {
     _bottomSpacing = max(kBottomNavigationBarHeight, incomingBottomSpacing);
-    print('BOTTOM SPACING: $_bottomSpacing');
   }
 }
